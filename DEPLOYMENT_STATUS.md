@@ -9,6 +9,7 @@ Verified on 2026-09-16.
 | RAG Q&A System | Streamlit Community Cloud | https://rag-app-system-shxft5zzpqhv5jpxvmdhe3.streamlit.app/ | UI loads and builds an in-memory FAISS index from `example.txt`; OpenAI questions require the app secret |
 | Enterprise Text-to-SQL AI Agent | Streamlit Community Cloud | https://suniljavadi.streamlit.app/ | Deterministic synthetic demo query returns SQL, validation, and rows |
 | OpenAI Streamlit Chatbot | Streamlit Community Cloud | https://app-openai-chatbot-edkp7lvx2nwjnz4gatqk5u.streamlit.app/ | UI loads; OpenAI secret must be configured before chat use |
+| Meeting Notes Professional Email API | Render free tier | https://meeting-notes-professional-email.onrender.com/health | `/health` verified with status `ok`; free instance may sleep |
 | Portfolio | GitHub Pages | https://suniljavadi.github.io/sunil-portfolio/ | Static portfolio loads |
 
 ## Deployment Ready, Access Required
@@ -17,7 +18,7 @@ These applications have meaningful web/API deployment value and local Docker/tes
 
 - `AI-Log-Analyzer-RCA-Agent`
 - `Enterprise-RAG-Meeting-Intelligence-Agent`
-- `Meeting-Notes-Professional-Email`
+- `Meeting-Notes-Professional-Email` Streamlit UI is not separately hosted; its API is live above
 - `AI-Agent-Jira-Integration`
 - `AI-SQL-Optimizer`
 - `ai-document-intelligence-editor`
