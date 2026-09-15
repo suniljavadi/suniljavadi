@@ -1,123 +1,78 @@
 # Sunil Javadi
 
-### AI / GenAI Engineer | Data & AI | Python | RAG | Agentic AI
+### AI / GenAI Engineer with a Data Engineering Foundation
 
-I build practical AI applications on a foundation of **SQL, ETL, BI, Python, and enterprise data engineering**. My current focus is connecting LLMs to trusted context, databases, APIs, and engineering workflows.
+I build practical AI systems with Python, SQL, RAG, FastAPI, Streamlit, and controlled tool workflows. My focus is the engineering around the model: trustworthy data, validation, evaluation, observability, and safe deployment.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0f766e?style=flat-square)](https://suniljavadi.github.io/sunil-portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square)](https://www.linkedin.com/in/sunil-javadi/)
-[![Resume](https://img.shields.io/badge/Resume-Download-d4572f?style=flat-square)](https://github.com/suniljavadi/sunil-portfolio/blob/main/Javadisunil_AI_Engineer_Resume.pdf)
-
-## What I Build
-
-- LLM applications with structured, reviewable outputs
-- RAG systems for grounded enterprise knowledge access
-- Text-to-SQL and data intelligence workflows
-- AI agents with controlled tools and API integrations
-- Document analysis, extraction, and editing systems
-- Log analysis and evidence-oriented root-cause workflows
-- MCP tools for data-engineering investigation
-
-## Flagship Projects
-
-Start here if you are exploring my AI engineering work:
-
-| Project | What it demonstrates |
-| --- | --- |
-| [Enterprise Text-to-SQL AI Agent](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) | Schema-aware retrieval, SQL generation, read-only validation, bounded execution, FastAPI, Streamlit, and PostgreSQL-shaped data |
-| [Enterprise RAG Knowledge Assistant](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) | Hybrid retrieval, reranking, citations, authorization-aware context, grounded answers, and evaluation scenarios |
-| [AI SQL Optimizer](https://github.com/suniljavadi/AI-SQL-Optimizer) | SQLGlot parsing, query analysis, safe rewrites, tuning rules, and transparent recommendations |
-| [AI Log Analyzer & RCA Agent](https://github.com/suniljavadi/AI-Log-Analyzer-RCA-Agent) | Log normalization, incident retrieval, evidence-based RCA, severity, confidence, and approval-gated actions |
-| [Multi-Agent Data Engineering Assistant](https://github.com/suniljavadi/Multi-Agent-AI-Data-Engineering-Assistant) | Specialist SQL, ETL, knowledge, and reviewer agents coordinated around data-engineering problems |
-| [Data Engineering MCP Server](https://github.com/suniljavadi/data-engineering-mcp-server) | Official MCP Python SDK, typed tools, resources, prompts, read-only SQL, and synthetic ETL investigation data |
-| [AI Document Intelligence & Editor](https://github.com/suniljavadi/ai-document-intelligence-editor) | Document parsing, chunking, citations, structured analysis, reviewable edits, and version comparison |
-| [AI Agent + Jira Integration](https://github.com/suniljavadi/AI-Agent-Jira-Integration) | Typed Jira-like tools, approval gates, policy retrieval, audit events, and controlled workflow actions |
-| [Meeting Notes → Professional Email](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) | Structured meeting extraction, action items, risks, validation, and professional email drafting |
-
-All projects use synthetic or mock-first integrations where documented. They are intended to show engineering decisions clearly without claiming production deployment or measured business impact.
+[Portfolio](https://suniljavadi.github.io/sunil-portfolio/) · [LinkedIn](https://www.linkedin.com/in/sunil-javadi/) · [Resume](https://github.com/suniljavadi/sunil-portfolio/blob/main/Javadisunil_AI_Engineer_Resume.pdf) · [Email](mailto:javadisunil@gmail.com)
 
 ## Live Demos
 
-| Project | Verified status |
-| --- | --- |
-| [RAG Q&A System](https://rag-app-system-shxft5zzpqhv5jpxvmdhe3.streamlit.app/) | Streamlit demo live; OpenAI-backed questions require the configured app secret |
-| [Enterprise Text-to-SQL AI Agent](https://suniljavadi.streamlit.app/) | Streamlit demo live in deterministic synthetic mode |
-| [OpenAI Streamlit Chatbot](https://app-openai-chatbot-edkp7lvx2nwjnz4gatqk5u.streamlit.app/) | Streamlit app live; OpenAI secret configuration required for chat |
+| Project | Status | Link | Source |
+| --- | --- | --- | --- |
+| OpenAI Chatbot | Browser smoke test passed | [Open app](https://app-openai-chatbot-edkp7lvx2nwjnz4gatqk5u.streamlit.app/) | [Repository](https://github.com/suniljavadi/streamlit-openai-chatbot) |
+| RAG Q&A System | Public page reachable | [Open app](https://rag-app-system-shxft5zzpqhv5jpxvmdhe3.streamlit.app/) | [Repository](https://github.com/suniljavadi/rag-qa-system) |
+| Text-to-SQL Agent | Public page reachable; local evaluator corrected and validated | [Open app](https://suniljavadi.streamlit.app/) | [Repository](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) |
+| Meeting Notes API | Health endpoint reachable; 11 tests passed | [Health check](https://meeting-notes-professional-email.onrender.com/health) | [Repository](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) |
 
-The FastAPI + Streamlit flagship repositories include Docker, tests, and CI where documented, but their backend services are not represented as public APIs until separately hosted and verified.
+Public reachability means the page or endpoint responded. It does not, by itself, claim production readiness or complete semantic accuracy.
 
-## Engineering Progression
+## Featured Projects
+
+### Safe Text-to-SQL
+
+Natural-language analytics over synthetic business data. The system retrieves schema and KPI context, generates candidate SQL, validates it, and executes only bounded read queries.
+
+**Evidence:** 10 tests passed; corrected local evaluation reports 90% execution accuracy and 80% semantic correctness on the repository’s synthetic evaluator.
+
+### Grounded RAG
+
+Document retrieval, embeddings, context construction, and answer generation with an explicit insufficient-evidence path.
+
+**Focus:** retrieval quality, freshness, citations, authorization filters, and groundedness rather than fluent text alone.
+
+### Meeting Notes Workflow
+
+Structured extraction of summaries, decisions, actions, risks, and open questions followed by a reviewable professional email draft.
+
+**Evidence:** 11 tests passed; outbound communication remains an approval-gated production concern.
+
+### AI Log Analyzer and RCA
+
+Operational log parsing, normalization, historical incident retrieval, diagnostic evidence, hypotheses, severity, and confidence.
+
+**Evidence:** 11 tests passed locally; the project is deployable but intentionally not presented as publicly hosted.
+
+## Engineering Themes
+
+- Ground model output in documents, schemas, metrics, or source notes.
+- Treat generated SQL, tools, and external actions as untrusted until validated.
+- Keep sensitive actions read-only or approval-gated.
+- Separate health checks, smoke tests, local tests, and quality evaluation.
+- Measure correctness, groundedness, safety, latency, cost, and failure behavior.
+- Use synthetic data for public demonstrations and protect secrets through environment configuration.
+
+## Technical Stack
+
+**Python · SQL · FastAPI · Streamlit · PostgreSQL · SQLite · SQLAlchemy · Pydantic · sqlglot · LangChain · FAISS · OpenAI-compatible APIs · Docker · pytest · GitHub Actions**
+
+## Data-to-AI Progression
 
 ```text
-SQL / ETL / BI
-      ↓
-Data Engineering
-      ↓
-Python / Data Science
-      ↓
-Machine Learning
-      ↓
-LLM Applications / RAG
-      ↓
-AI Agents / Tool Calling
-      ↓
-MCP / Data-Engineering AI
+SQL / ETL / BI → Data Engineering → Python → ML → LLM Apps / RAG →
+Safe Agents / Tool Calling → Evaluation and Production AI
 ```
 
-## Foundation
+## What I Am Building Toward
 
-My background includes:
+AI systems that are useful in real workflows and defensible in production discussions: explicit data contracts, safe execution boundaries, repeatable evaluation, observable deployments, and clear human ownership.
 
-- SQL Server and T-SQL
-- SSIS, ETL, and data pipeline design
-- SSRS and Power BI
-- Data warehousing and data quality
-- Markit EDM
-- Python, Pandas, NumPy, and Scikit-learn
-- FastAPI, Streamlit, REST APIs, Docker, testing, logging, and evaluation
+## More
 
-Supporting repositories:
-
+- [Portfolio website](https://suniljavadi.github.io/sunil-portfolio/)
+- [AI Log Analyzer](https://github.com/suniljavadi/AI-Log-Analyzer-RCA-Agent)
+- [Enterprise RAG Knowledge Assistant](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant)
 - [Machine Learning](https://github.com/suniljavadi/Machine-Learning)
 - [Deep Learning](https://github.com/suniljavadi/Deep-Learning)
 - [SQL Practice](https://github.com/suniljavadi/SQL)
 - [Power BI Portfolio](https://github.com/suniljavadi/Power-BI)
-- [Streamlit Practice Apps](https://github.com/suniljavadi/streamlit-practice-apps)
-- [RAG Q&A System](https://github.com/suniljavadi/rag-qa-system)
-- [Text-to-SQL API Prototype](https://github.com/suniljavadi/text-to-sql-api)
-- [Azure Data & Analytics Samples](https://github.com/suniljavadi/azure-data-analytics-samples)
-- [OpenAI Streamlit Chatbot](https://github.com/suniljavadi/streamlit-openai-chatbot)
-
-## How I Approach AI Engineering
-
-I prefer practical systems over isolated demos:
-
-- Deterministic logic where correctness matters
-- LLMs where semantic reasoning adds value
-- Structured outputs and validation at boundaries
-- Read-only or approval-gated tools for sensitive actions
-- Evidence, citations, evaluation, and observability
-- Environment-based configuration and explicit limitations
-
-## Current Focus
-
-`Generative AI` · `RAG` · `AI Agents` · `Tool Calling` · `MCP` · `Text-to-SQL` · `AI + Data Engineering` · `Evaluation` · `Production AI Architecture`
-
-## Collaboration
-
-I’m interested in collaborating on:
-
-- AI applications grounded in real data
-- RAG and document intelligence
-- Agentic workflows and tool design
-- Data-engineering assistants
-- SQL and analytics automation
-- Evaluation, guardrails, and observability for LLM systems
-
-If you find a project useful, a star or thoughtful issue is welcome. For collaboration or professional opportunities, connect through [LinkedIn](https://www.linkedin.com/in/sunil-javadi/) or visit my [portfolio](https://suniljavadi.github.io/sunil-portfolio/).
-
-## Explore More
-
-- [Full portfolio website](https://suniljavadi.github.io/sunil-portfolio/)
-- [AI Engineer resume](https://github.com/suniljavadi/sunil-portfolio/blob/main/Javadisunil_AI_Engineer_Resume.pdf)
-- [Email](mailto:javadisunil@gmail.com)
