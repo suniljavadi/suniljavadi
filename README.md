@@ -1,369 +1,113 @@
-# 👋 Hi, I'm Sunil Javadi
+# Sunil Javadi
 
-### AI / GenAI Engineer | Data & AI | SQL & Data Engineering
+### AI / GenAI Engineer | Data & AI | Python | RAG | Agentic AI
 
-I’m an **AI / GenAI Engineer with 6+ years of experience in data engineering, ETL, SQL, BI, and enterprise data platforms**, currently focused on building production-oriented AI applications.
+I build practical AI applications on a foundation of **SQL, ETL, BI, Python, and enterprise data engineering**. My current focus is connecting LLMs to trusted context, databases, APIs, and engineering workflows.
 
-My work combines **Generative AI, LLMs, RAG, NLP, Python, APIs, SQL, and data engineering** to build practical AI solutions that can be integrated into real-world enterprise workflows.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0f766e?style=flat-square)](https://suniljavadi.github.io/sunil-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square)](https://www.linkedin.com/in/sunil-javadi/)
+[![Resume](https://img.shields.io/badge/Resume-Download-d4572f?style=flat-square)](https://github.com/suniljavadi/sunil-portfolio/blob/main/Javadisunil_AI_Engineer_Resume.pdf)
 
----
+## What I Build
 
-## 🚀 What I Build
+- LLM applications with structured, reviewable outputs
+- RAG systems for grounded enterprise knowledge access
+- Text-to-SQL and data intelligence workflows
+- AI agents with controlled tools and API integrations
+- Document analysis, extraction, and editing systems
+- Log analysis and evidence-oriented root-cause workflows
+- MCP tools for data-engineering investigation
 
-* 🤖 **Generative AI & LLM Applications**
-* 🔍 **Retrieval-Augmented Generation (RAG)**
-* 🧠 **Text-to-SQL & Natural Language Data Access**
-* 🛠️ **AI Agents & Tool Calling**
-* 📊 **AI-powered Data & Analytics Applications**
-* 📝 **Document Intelligence & Information Extraction**
-* 🚨 **AI Log Analysis & Alerting**
-* ⚡ **Python APIs & AI Services**
-* ☁️ **Cloud-ready AI & Data Engineering Solutions**
+## Flagship Projects
 
----
+Start here if you are exploring my AI engineering work:
 
-## 💼 Professional Background
+| Project | What it demonstrates |
+| --- | --- |
+| [Enterprise Text-to-SQL AI Agent](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) | Schema-aware retrieval, SQL generation, read-only validation, bounded execution, FastAPI, Streamlit, and PostgreSQL-shaped data |
+| [Enterprise RAG Knowledge Assistant](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) | Hybrid retrieval, reranking, citations, authorization-aware context, grounded answers, and evaluation scenarios |
+| [AI SQL Optimizer](https://github.com/suniljavadi/AI-SQL-Optimizer) | SQLGlot parsing, query analysis, safe rewrites, tuning rules, and transparent recommendations |
+| [AI Log Analyzer & RCA Agent](https://github.com/suniljavadi/AI-Log-Analyzer-RCA-Agent) | Log normalization, incident retrieval, evidence-based RCA, severity, confidence, and approval-gated actions |
+| [Multi-Agent Data Engineering Assistant](https://github.com/suniljavadi/Multi-Agent-AI-Data-Engineering-Assistant) | Specialist SQL, ETL, knowledge, and reviewer agents coordinated around data-engineering problems |
+| [Data Engineering MCP Server](https://github.com/suniljavadi/data-engineering-mcp-server) | Official MCP Python SDK, typed tools, resources, prompts, read-only SQL, and synthetic ETL investigation data |
+| [AI Document Intelligence & Editor](https://github.com/suniljavadi/ai-document-intelligence-editor) | Document parsing, chunking, citations, structured analysis, reviewable edits, and version comparison |
+| [AI Agent + Jira Integration](https://github.com/suniljavadi/AI-Agent-Jira-Integration) | Typed Jira-like tools, approval gates, policy retrieval, audit events, and controlled workflow actions |
+| [Meeting Notes → Professional Email](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) | Structured meeting extraction, action items, risks, validation, and professional email drafting |
 
-**Technical Lead – Data & AI**
+All projects use synthetic or mock-first integrations where documented. They are intended to show engineering decisions clearly without claiming production deployment or measured business impact.
 
-My core background is in enterprise data engineering and BI, with hands-on experience across:
-
-* SQL Server & T-SQL
-* SSIS / ETL
-* SSRS
-* Power BI
-* Data Warehousing
-* Markit EDM
-* Python
-* Data Analysis
-* AI / Generative AI
-
-This combination of **enterprise data engineering + AI engineering** allows me to build AI systems that understand and work with real business data.
-
----
-
-# ⭐ Featured AI Projects
-
-## 🔗 Text-to-SQL API
-
-**Natural Language → SQL → Database**
-
-[View Repository](https://github.com/suniljavadi/text-to-sql-api)
-
-An AI-powered API that converts natural-language questions into SQL queries.
-
-### Key Concepts
-
-* LLM integration
-* Natural language processing
-* Prompt engineering
-* SQL generation
-* Schema-aware querying
-* Query validation
-* Python API development
-* Database integration
-
-**Example:**
+## Engineering Progression
 
 ```text
-User:
-"Show the top 10 customers by revenue in 2025"
-
-        ↓
-
-LLM / Text-to-SQL
-
-        ↓
-
-SELECT TOP 10 ...
-
-        ↓
-
-Database
-
-        ↓
-
-Business Result
+SQL / ETL / BI
+      ↓
+Data Engineering
+      ↓
+Python / Data Science
+      ↓
+Machine Learning
+      ↓
+LLM Applications / RAG
+      ↓
+AI Agents / Tool Calling
+      ↓
+MCP / Data-Engineering AI
 ```
 
----
+## Foundation
 
-## 🧠 RAG — Retrieval-Augmented Generation
+My background includes:
 
-[View Repository](https://github.com/suniljavadi/RAG)
+- SQL Server and T-SQL
+- SSIS, ETL, and data pipeline design
+- SSRS and Power BI
+- Data warehousing and data quality
+- Markit EDM
+- Python, Pandas, NumPy, and Scikit-learn
+- FastAPI, Streamlit, REST APIs, Docker, testing, logging, and evaluation
 
-A document-question-answering system demonstrating the architecture behind enterprise knowledge assistants.
+Supporting repositories:
 
-### Key Concepts
+- [Machine Learning](https://github.com/suniljavadi/Machine-Learning)
+- [Deep Learning](https://github.com/suniljavadi/Deep-Learning)
+- [SQL Practice](https://github.com/suniljavadi/SQL)
+- [Power BI Portfolio](https://github.com/suniljavadi/Power-BI)
+- [Streamlit Practice Apps](https://github.com/suniljavadi/streamlit-practice-apps)
+- [RAG Q&A System](https://github.com/suniljavadi/rag-qa-system)
+- [Text-to-SQL API Prototype](https://github.com/suniljavadi/text-to-sql-api)
+- [Azure Data & Analytics Samples](https://github.com/suniljavadi/azure-data-analytics-samples)
+- [OpenAI Streamlit Chatbot](https://github.com/suniljavadi/streamlit-openai-chatbot)
 
-* Document ingestion
-* Chunking
-* Embeddings
-* Vector search
-* Semantic retrieval
-* Context injection
-* LLM generation
-* RAG pipelines
+## How I Approach AI Engineering
 
-```text
-Documents
-    ↓
-Chunking
-    ↓
-Embeddings
-    ↓
-Vector Database
-    ↓
-Semantic Retrieval
-    ↓
-LLM
-    ↓
-Grounded Answer
-```
+I prefer practical systems over isolated demos:
 
----
+- Deterministic logic where correctness matters
+- LLMs where semantic reasoning adds value
+- Structured outputs and validation at boundaries
+- Read-only or approval-gated tools for sensitive actions
+- Evidence, citations, evaluation, and observability
+- Environment-based configuration and explicit limitations
 
-## 🚨 AI Log Analyzer & Alerting
+## Current Focus
 
-An AI-powered system designed to analyze application and ETL logs, identify failures, summarize root causes, and generate actionable alerts.
+`Generative AI` · `RAG` · `AI Agents` · `Tool Calling` · `MCP` · `Text-to-SQL` · `AI + Data Engineering` · `Evaluation` · `Production AI Architecture`
 
-### Key Concepts
+## Collaboration
 
-* Log ingestion
-* Error classification
-* LLM-based analysis
-* Root-cause identification
-* Alert generation
-* Structured outputs
-* API integration
-* Production monitoring concepts
+I’m interested in collaborating on:
 
----
+- AI applications grounded in real data
+- RAG and document intelligence
+- Agentic workflows and tool design
+- Data-engineering assistants
+- SQL and analytics automation
+- Evaluation, guardrails, and observability for LLM systems
 
-## 💬 Intelligent AI Chatbot
+If you find a project useful, a star or thoughtful issue is welcome. For collaboration or professional opportunities, connect through [LinkedIn](https://www.linkedin.com/in/sunil-javadi/) or visit my [portfolio](https://suniljavadi.github.io/sunil-portfolio/).
 
-[View Repository](https://github.com/suniljavadi/chatbot)
+## Explore More
 
-Conversational AI application demonstrating LLM-powered interactions and multi-turn conversations.
-
-### Key Concepts
-
-* LLM APIs
-* Prompt engineering
-* Conversation history
-* Context management
-* Python
-* Streamlit
-
----
-
-## 📊 Streamlit AI & Data Applications
-
-[View Repository](https://github.com/suniljavadi/Streamlit)
-
-Collection of interactive applications combining Python, data analysis, machine learning, and AI.
-
-### Technologies
-
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Streamlit
-* Matplotlib
-* APIs
-
----
-
-# 🧠 Machine Learning & Deep Learning
-
-### Machine Learning
-
-[View Repository](https://github.com/suniljavadi/Machine-Learning)
-
-Projects covering:
-
-* Regression
-* Classification
-* Clustering
-* Feature Engineering
-* Model Evaluation
-* Ensemble Learning
-* XGBoost
-* Data Preprocessing
-
-### Deep Learning
-
-[View Repository](https://github.com/suniljavadi/Deep-Learning)
-
-Projects covering:
-
-* Neural Networks
-* CNNs
-* RNNs
-* Transfer Learning
-* Computer Vision
-* Deep Learning experimentation
-
----
-
-# 🛠️ Technology Stack
-
-### AI / GenAI
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![OpenAI](https://img.shields.io/badge/LLMs-412991?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-6A5ACD?style=for-the-badge)
-![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-00A67E?style=for-the-badge)
-
-### Data Engineering
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)
-![SSIS](https://img.shields.io/badge/SSIS-Data_Integration-0078D4?style=for-the-badge)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
-
-### Data & Analytics
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
-
-### APIs & Applications
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
-
----
-
-# 🏗️ AI Engineering Focus
-
-I'm particularly interested in taking AI applications beyond prototypes and building systems that are:
-
-```text
-Reliable
-   ↓
-Observable
-   ↓
-Secure
-   ↓
-Scalable
-   ↓
-Deployable
-   ↓
-Production Ready
-```
-
-Areas I'm actively working on:
-
-* LLM application architecture
-* RAG optimization
-* Agentic AI
-* Tool calling
-* MCP
-* AI APIs
-* FastAPI
-* Prompt engineering
-* Evaluation & observability
-* AI security & guardrails
-* Docker & deployment
-* Cloud AI architecture
-* MLOps / LLMOps
-
----
-
-# 📚 Data Engineering Foundation
-
-My AI engineering work is built on a strong data foundation.
-
-### SQL
-
-* Advanced T-SQL
-* Query optimization
-* Stored procedures
-* CTEs
-* Window functions
-* Performance tuning
-* Data modeling
-
-### ETL
-
-* SSIS
-* ETL automation
-* Error handling
-* Incremental loads
-* SFTP integrations
-* Dynamic packages
-* Data validation
-
-### BI
-
-* Power BI
-* DAX
-* Data modeling
-* SSRS
-* Reporting & analytics
-
----
-
-# 📈 GitHub Statistics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=suniljavadi\&show_icons=true\&theme=tokyonight\&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=suniljavadi\&layout=compact\&theme=tokyonight\&hide_border=true)
-
-</div>
-
----
-
-# 🎯 Current Focus
-
-```text
-AI Engineering
-      │
-      ├── Generative AI
-      ├── LLM Applications
-      ├── RAG
-      ├── Agentic AI
-      ├── Tool Calling
-      ├── MCP
-      ├── Text-to-SQL
-      ├── AI APIs
-      ├── Evaluation
-      ├── Observability
-      └── Production Deployment
-```
-
-My goal is to build **enterprise-grade AI systems that connect LLMs with real data, APIs, tools, and business workflows.**
-
----
-
-# 🤝 Let's Connect
-
-I'm interested in:
-
-* AI / GenAI Engineering
-* AI-powered data applications
-* Enterprise LLM solutions
-* RAG systems
-* Agentic AI
-* Text-to-SQL
-* Data & AI Engineering
-* Open-source collaboration
-
-If you're working on interesting problems in **AI, GenAI, data engineering, or intelligent enterprise applications**, feel free to connect.
-
----
-
-<div align="center">
-
-### ⭐ Explore the repositories and follow the journey
-
-**Building AI systems that turn data into intelligence. 🚀**
-
-</div>
+- [Full portfolio website](https://suniljavadi.github.io/sunil-portfolio/)
+- [AI Engineer resume](https://github.com/suniljavadi/sunil-portfolio/blob/main/Javadisunil_AI_Engineer_Resume.pdf)
+- [Email](mailto:javadisunil@gmail.com)
