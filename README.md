@@ -18,23 +18,14 @@
 
 I build AI applications where the model is one component of a larger, testable system. My work connects data engineering fundamentals with RAG, Text-to-SQL, workflow automation, operational analysis, and deployment validation.
 
-## Explore the Work
+## Selected Engineering Projects
 
 | Project | What it demonstrates | Evidence | Links |
 | --- | --- | --- | --- |
 | **Safe Text-to-SQL** | Schema and KPI context, SQL policy validation, bounded read-only execution | 10 tests; synthetic evaluator: 90% execution, 80% semantic correctness | [App](https://suniljavadi.streamlit.app/) · [Code](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) |
-| **Grounded RAG** | Chunking, embeddings, retrieval, context construction, insufficient-evidence behavior | Public page reachable; retrieval limitations documented | [App](https://rag-app-system-shxft5zzpqhv5jpxvmdhe3.streamlit.app/) · [Code](https://github.com/suniljavadi/rag-qa-system) |
+| **Enterprise RAG Knowledge Assistant** | Grounded retrieval, document context, source-aware answers, and enterprise knowledge workflows | Architecture and retrieval behavior documented | [Code](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) |
 | **Meeting Notes** | Structured extraction, reviewable drafts, approval before communication | 11 tests; public health endpoint reachable | [API](https://meeting-notes-professional-email.onrender.com/health) · [Code](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) |
 | **AI Log Analyzer** | Parsing, incident retrieval, evidence, hypotheses, confidence, action gates | 11 local tests; deployable, not publicly hosted | [Code](https://github.com/suniljavadi/AI-Log-Analyzer-RCA-Agent) |
-
-<details>
-<summary><b>Chatbot demo</b></summary>
-
-The compact Streamlit chatbot demonstrates session state, provider calls, streaming output, and secret-first configuration.
-
-[Open the app](https://app-openai-chatbot-edkp7lvx2nwjnz4gatqk5u.streamlit.app/) · [Source code](https://github.com/suniljavadi/streamlit-openai-chatbot)
-
-</details>
 
 ## My Engineering Thesis
 
@@ -60,6 +51,6 @@ SQL / ETL / BI  →  Data Engineering  →  Python  →  ML
 									  →  Safe Agents / Evaluation
 ```
 
-## More Projects
+## Other Work
 
-[Enterprise RAG Knowledge Assistant](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) · [Machine Learning](https://github.com/suniljavadi/Machine-Learning) · [Deep Learning](https://github.com/suniljavadi/Deep-Learning) · [SQL Practice](https://github.com/suniljavadi/SQL) · [Power BI](https://github.com/suniljavadi/Power-BI)
+[Streamlit Chatbot](https://github.com/suniljavadi/streamlit-openai-chatbot) · [RAG Q&A Demo](https://github.com/suniljavadi/rag-qa-system) · [Machine Learning](https://github.com/suniljavadi/Machine-Learning) · [Deep Learning](https://github.com/suniljavadi/Deep-Learning) · [SQL Practice](https://github.com/suniljavadi/SQL) · [Power BI](https://github.com/suniljavadi/Power-BI)
