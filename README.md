@@ -36,6 +36,16 @@ Start here if you are exploring my AI engineering work:
 
 All projects use synthetic or mock-first integrations where documented. They are intended to show engineering decisions clearly without claiming production deployment or measured business impact.
 
+## Live Demos
+
+| Project | Verified status |
+| --- | --- |
+| [RAG Q&A System](https://rag-app-system-shxft5zzpqhv5jpxvmdhe3.streamlit.app/) | Streamlit demo live; OpenAI-backed questions require the configured app secret |
+| [Enterprise Text-to-SQL AI Agent](https://suniljavadi.streamlit.app/) | Streamlit demo live in deterministic synthetic mode |
+| [OpenAI Streamlit Chatbot](https://app-openai-chatbot-edkp7lvx2nwjnz4gatqk5u.streamlit.app/) | Streamlit app live; OpenAI secret configuration required for chat |
+
+The FastAPI + Streamlit flagship repositories include Docker, tests, and CI where documented, but their backend services are not represented as public APIs until separately hosted and verified.
+
 ## Engineering Progression
 
 ```text
