@@ -24,6 +24,7 @@ I build AI applications where the model is one component of a larger, testable s
 
 | Project | What it demonstrates | Evidence | Links |
 | --- | --- | --- | --- |
+| **Enterprise AI Data Copilot** | Text-to-SQL + RAG + planning agent over real SQL Server data, with `sqlglot`-based SQL validation, role-based access control, and observability | 90 tests; 38/38 Text-to-SQL and 13/13 security evaluation cases passing | [Code](https://github.com/suniljavadi/enterprise-ai-data-copilot) |
 | **Safe Text-to-SQL** | Schema and KPI context, SQL policy validation, bounded read-only execution | 10 tests; synthetic evaluator: 90% execution, 80% semantic correctness | [App](https://suniljavadi.streamlit.app/) · [Code](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) |
 | **Enterprise RAG Knowledge Assistant** | Grounded retrieval, document context, source-aware answers, and enterprise knowledge workflows | Architecture and retrieval behavior documented | [Code](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) |
 | **Meeting Notes** | Structured extraction, reviewable drafts, approval before communication | 11 tests; public health endpoint reachable | [API](https://meeting-notes-professional-email.onrender.com/health) · [Code](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) |
