@@ -25,6 +25,7 @@ I build AI applications where the model is one component of a larger, testable s
 | Project | What it demonstrates | Evidence | Links |
 | --- | --- | --- | --- |
 | **Safe Text-to-SQL** | Schema and KPI context, SQL policy validation, bounded read-only execution | 10 tests; synthetic evaluator: 90% execution, 80% semantic correctness | [App](https://suniljavadi.streamlit.app/) · [Code](https://github.com/suniljavadi/Text-to-SQL-AI-Agent) |
+| **Jev SQL Agent Router** | LLM-generated SQL with Jev decision routing, strict approval review, audit trail, FastAPI, and Streamlit | 55 local tests; Compose configuration validated; app not publicly hosted | [Code](https://github.com/suniljavadi/jev-sql-agent-router) |
 | **Enterprise RAG Knowledge Assistant** | Grounded retrieval, document context, source-aware answers, and enterprise knowledge workflows | Architecture and retrieval behavior documented | [Code](https://github.com/suniljavadi/Enterprise-RAG-Confluence-Knowledge-Assistant) |
 | **Meeting Notes** | Structured extraction, reviewable drafts, approval before communication | 11 tests; public health endpoint reachable | [API](https://meeting-notes-professional-email.onrender.com/health) · [Code](https://github.com/suniljavadi/Meeting-Notes-Professional-Email) |
 | **AI Log Analyzer** | Parsing, incident retrieval, evidence, hypotheses, confidence, action gates | 6 local tests; deployable, not publicly hosted | [Code](https://github.com/suniljavadi/AI-Log-Analyzer-RCA-Agent) |
@@ -46,6 +47,7 @@ I build AI applications where the model is one component of a larger, testable s
 | Project | Core lesson | Production question |
 | --- | --- | --- |
 | **Text-to-SQL** | Valid SQL is not automatically correct SQL. | How do we protect the database and verify business meaning? |
+| **Jev SQL Agent Router** | LLM generation and policy decisions are separate responsibilities; human approval must revalidate SQL. | Can a reviewer resolve a request without bypassing least-privilege SQL rules? |
 | **Enterprise RAG** | Fluent answers need current, authorized evidence. | Was the right context retrieved, and can the answer be supported? |
 | **Meeting Notes** | Structured extraction is safer than opaque rewriting. | What prevents invented commitments or an incorrect recipient? |
 | **AI Log Analyzer** | Diagnosis should expose evidence and uncertainty. | How does an engineer verify the hypothesis before acting? |
